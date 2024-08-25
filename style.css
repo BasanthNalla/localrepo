@@ -1,7 +1,26 @@
-.heading{
+/* .heading{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     color: aqua;
     border-radius: 2px;
     border-color: black;
-}
+} */
+ *{
+    margin: 0px;
+    padding: 7px;
+ }
+ .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border: 7px solid black;
+    margin: 0px;
+    padding: 3px;
+    height: 27vh;
+    width:auto;
+ }
+ .box{
+    display: flex;
+    border: 3px solid salmon;
+    width: 3rem;
+ }
